@@ -1,0 +1,19 @@
+n=int(input("enter how many terms u want ??"))
+a=0
+b=1
+c=2
+if n<=0:
+  print("enter positive integer....")
+elif n==1:
+   print(" the fibonacii series is ... ")
+else:
+    print("the fibonaciii series is ...")
+    print(a,",",b,",",end=',')
+  
+    while n>c:
+      nth = a + b
+      print(nth,end=',')
+      a = b
+      b = nth
+      c = c+1
+      
