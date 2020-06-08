@@ -1,0 +1,17 @@
+dict={
+  1:"apple",
+  2:"grapes",
+  3:"mango"
+  }
+  
+dict.pop(1) #removes red key from dict
+print(dict)
+
+del dict[2] # deletes violet from dict
+print(dict) 
+
+dict.popitem() # removes last key
+print(dict)
+
+dict.clear() # clears the keys and values in the dict
+print(dict)
