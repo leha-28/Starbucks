@@ -1,0 +1,5 @@
+tuple=("apple","banana","orange")
+for x in tuple:
+  print(x)
+
+print(tuple[2]) #accessing 3 rd element in the tuple
