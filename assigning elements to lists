@@ -1,0 +1,9 @@
+list1=[23,2,-9,-64,12]
+list2=["apple","banana","mango"]
+
+list1.append(34)
+list2.append("orange")
+
+print(list1)
+
+#print(list2)
